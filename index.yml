@@ -1,0 +1,40 @@
+layout: layouts/base.vto
+header:
+  title: Blorbo.Social Link Directory
+  description: 'Looking for something? If it''s related to Blorbo.Social, it''ll be here!'
+  avatar: /logo.png
+metas:
+  title: =header.title
+  description: =header.description
+  image: =header.avatar
+  generator: true
+links:
+  - type: mastodon
+    text: Blorbo.Social Homepage
+    href: 'https://blorbo.social/'
+    only_icon: false
+  - text: Instance Rules & General Information
+    href: 'https://blorbo.social/about'
+    only_icon: false
+  - type: opencollective
+    text: Help us pay our hosting bills!
+    href: 'https://opencollective.com/blorbosocial'
+    only_icon: false
+  - text: Click here to email us!
+    href: 'mailto:blorboadmin@gmail.com'
+    only_icon: false
+  - type: upptime
+    text: Blorbo.Social Status
+    href: 'https://status.blorbo.social/'
+    only_icon: false
+  - type: writedotas
+    text: Blog
+    href: 'https://paper.wf/blorbosocial/'
+    only_icon: false
+  - type: googleforms
+    text: Instance Reporting Form
+    href: 'https://forms.gle/LFWg3qdZa6eWks9G9'
+    only_icon: false
+footer: >-
+  Powered by [Lume](https://lume.land) &
+  [SimpleMe](https://github.com/lumeland/theme-simple-me) theme
