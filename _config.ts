@@ -1,5 +1,5 @@
 import lume from "lume/mod.ts";
-import me from "me/mod.ts";
+//import me from "me/mod.ts";
 
 const site = lume({
     //location: new URL("https://example.com"),
@@ -9,6 +9,6 @@ const site = lume({
   },
 });
 
-site.use(me());
+//site.use(me());
 
 export default site;
