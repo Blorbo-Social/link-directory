@@ -1,14 +1,10 @@
 import lume from "lume/mod.ts";
-//import me from "me/mod.ts";
+import plugins from "./plugins.ts";
 
 const site = lume({
-    //location: new URL("https://example.com"),
-    server: {
-        //page404: "./not-found.html",
-        open: true,
-  },
+  src: "./src",
 });
 
-//site.use(me());
+site.use(plugins());
 
 export default site;
