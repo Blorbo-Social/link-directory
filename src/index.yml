@@ -1,4 +1,4 @@
-layout: _includes/layouts/base.vto
+layout: layouts/base.vto
 header:
   title: Blorbo.Social Link Directory
   description: 'Looking for something? If it''s related to Blorbo.Social, it''ll be here!'
