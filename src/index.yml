@@ -29,7 +29,7 @@ links:
     only_icon: false
   - type: writedotas
     text: Blog
-    href: 'https://paper.wf/blorbosocial/'
+    href: 'https://blog.blorbo.social/'
     only_icon: false
   - type: googleforms
     text: Instance Reporting Form
