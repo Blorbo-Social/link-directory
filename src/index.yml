@@ -27,8 +27,7 @@ links:
     text: Blorbo.Social Status
     href: 'https://status.blorbo.social/'
     only_icon: false
-  - type: writedotas
-    text: Blog
+  - text: Blog
     href: 'https://blog.blorbo.social/'
     only_icon: false
   - type: googleforms
